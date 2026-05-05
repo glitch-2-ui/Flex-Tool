@@ -4,8 +4,7 @@ import requests
 import time
 import whois
 import urllib.parse
-import sys
-import threading
+
 
 ports = [22, 21, 20, 23, 25, 53, 67, 68, 69, 80, 110, 123, 139, 143, 161, 443, 445, 3389]
 def port_scanner():
